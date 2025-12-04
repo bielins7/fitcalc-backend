@@ -1,4 +1,40 @@
+# Node
 node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Dist / Build
+dist/
+build/
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env
 .env
-dev.db
-/dist
+.env.development
+.env.test
+.env.production
+
+# VSCode
+.vscode/
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/dev.db-journal
+
+# Cache
+.cache/
+.tmp/
